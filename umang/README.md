@@ -13,6 +13,7 @@
     ],
   },
 }
+```json
 
 - Train List API JSON Reponse
 ```json
@@ -26,3 +27,4 @@
     ],
   },
 }
+```json
