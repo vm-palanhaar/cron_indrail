@@ -59,7 +59,7 @@ class Trains:
         # Create a cursor object to execute SQL query
         cursor = self.__dbcon.cursor()
 
-        insert_qry = f'INSERT INTO {self.__table} ({self.__cl1}, {self.__cl2}) VALUES (%s, %s);'
+        insert_qry = f'INSERT INTO {self.__table} (train_no, train_name) VALUES (%s, %s);'
         data_to_insert = (tapi["trainNo"], tapi["trainName"])
 
         try:
